@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../components/Layout/Header/Header';
 import Footer from '../components/Layout/Footer/Footer';
-import HomeMain from '../components/Home/HomeMain';
+import SignInMain from '../components/SignIn/SignInMain';
+import Header from '../components/Layout/Header/Header';
 
 class Index extends React.Component {
 
@@ -15,7 +15,7 @@ class Index extends React.Component {
         return (
             <React.Fragment>
             <Header />
-            <HomeMain />
+            <SignInMain />
             <Footer />
             </React.Fragment>
         );

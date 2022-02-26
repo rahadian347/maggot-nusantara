@@ -15,7 +15,7 @@ const Footer = () => {
                            <div className="footer__widget mb-50">
                               <div className="footer__widget-head mb-22">
                                  <div className="footer__logo">
-                                    <Link href="/"><a><img src="assets/img/maggot-eco/logo-2.png" alt="img not found"/></a></Link>
+                                    <Link href="#"><a><img src="assets/img/maggot-eco/logo-2.png" alt="img not found"/></a></Link>
                                  </div>
                               </div>
                               <div className="footer__widget-body">
@@ -34,18 +34,18 @@ const Footer = () => {
                         <div className="col-xxl-2 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 offset-lg-0 col-md-2 offset-md-1 col-sm-5 offset-sm-1">
                            <div className="footer__widget mb-50">
                               <div className="footer__widget-head mb-22">
-                                 <h3 className="footer__widget-title">Company</h3>
+                                 <h3 className="footer__widget-title">Perusahaan</h3>
                               </div>
                               <div className="footer__widget-body">
                                  <div className="footer__link">
                                     <ul>
-                                       <li><Link href="/about"><a>About</a></Link></li>
-                                       <li><Link href="/course-grid"><a>Courses</a></Link></li>
-                                       <li><Link href="/event-details"><a>Events</a></Link></li>
-                                       <li><Link href="/instructor"><a>Instructor</a></Link></li>
-                                       <li><Link href="/instructor"><a>Career</a></Link></li>
-                                       <li><Link href="/instructor"><a>Become a Teacher</a></Link></li>
-                                       <li><Link href="/contact"><a>Contact</a></Link></li>
+                                       <li><Link href="#"><a>Tentang kami</a></Link></li>
+                                       <li><Link href="#"><a>Kursus</a></Link></li>
+                                       <li><Link href="#"><a>Events</a></Link></li>
+                                       <li><Link href="#"><a>Instruktur</a></Link></li>
+                                       <li><Link href="#"><a>Karir</a></Link></li>
+                                       <li><Link href="#"><a>Menjadi Instruktur</a></Link></li>
+                                       <li><Link href="#"><a>Kontak</a></Link></li>
                                     </ul>
                                  </div>
                               </div>
@@ -59,12 +59,12 @@ const Footer = () => {
                               <div className="footer__widget-body">
                                  <div className="footer__link">
                                     <ul>
-                                       <li><Link href="/instructor"><a>Browse Library</a></Link></li>
-                                       <li><Link href="/instructor"><a>Library</a></Link></li>
-                                       <li><Link href="/instructor"><a>Partners</a></Link></li>
-                                       <li><Link href="/blog"><a>News & Blogs</a></Link></li>
-                                       <li><Link href="/about"><a>FAQs</a></Link></li>
-                                       <li><Link href="/course-grid"><a>Tutorials</a></Link></li>
+                                       <li><Link href="#"><a>Cari kursus</a></Link></li>
+                                       <li><Link href="#"><a>Library</a></Link></li>
+                                       <li><Link href="#"><a>Partner</a></Link></li>
+                                       <li><Link href="#"><a>Blog dan Berita</a></Link></li>
+                                       <li><Link href="#"><a>FAQs</a></Link></li>
+                                       <li><Link href="#"><a>Jasa</a></Link></li>
                                     </ul>
                                  </div>
                               </div>
@@ -79,14 +79,14 @@ const Footer = () => {
                                  <div className="footer__subscribe">
                                     <form action="#">
                                        <div className="footer__subscribe-input mb-15">
-                                          <input type="email" placeholder="Your email address"/>
+                                          <input type="email" placeholder="Email anda"/>
                                           <button type="submit">
                                              <i><FontAwesomeIcon icon={['fas', 'arrow-right']} /></i>
                                              <i><FontAwesomeIcon icon={['fas', 'arrow-right']} /></i>
                                           </button>
                                        </div>
                                     </form>
-                                    <p>Get the latest news and updates right at your inbox.</p>
+                                    <p>Dapatkan berita menarik langsung ke inbox anda.</p>
                                  </div>
                               </div>
                            </div>

@@ -45,7 +45,7 @@ const Header = () => {
                   <div className="col-xxl-3 col-xl-3 col-lg-4 col-md-2 col-sm-4 col-6">
                      <div className="header__left d-flex">
                         <div className="logo">
-                           <Link href="/">
+                           <Link href="#">
                               <a><img src="assets/img/maggot-eco/logo.png" alt="logo"/></a>
                            </Link>
                         </div>
@@ -53,7 +53,7 @@ const Header = () => {
                            <nav>
                               <ul>
                                  <li>
-                                    <Link href="/course-grid"><a className="cat-menu d-flex align-items-center">
+                                    <Link href="#"><a className="cat-menu d-flex align-items-center">
                                        <div className="cat-dot-icon d-inline-block">
                                           <svg viewBox="0 0 276.2 276.2">
                                              <g>
@@ -93,25 +93,25 @@ const Header = () => {
                            <nav id="mobile-menu">
                               <ul>
                                  <li className="">
-                                    <Link href="/"><a>Beranda</a></Link>
+                                    <Link href="#"><a>Beranda</a></Link>
                                  </li>
                                  <li className="has-dropdown">
-                                    <Link href="/course-grid"><a>Kursus</a></Link>
+                                    <Link href="#"><a>Kursus</a></Link>
                                     <ul className="submenu">
-                                       <li><Link href="/course-grid"><a>Pemula</a></Link></li>
-                                       <li><Link href="/course-list"><a>Menengah</a></Link></li>
-                                       <li><Link href="/course-sidebar"><a>Lanjutan</a></Link></li>
+                                       <li><Link href="#"><a>Pemula</a></Link></li>
+                                       <li><Link href="#"><a>Menengah</a></Link></li>
+                                       <li><Link href="#"><a>Lanjutan</a></Link></li>
                                     </ul>
                                  </li>
                                  <li className="">
-                                    <Link href="/blog"><a>Blog</a></Link>
+                                    <Link href="#"><a>Blog</a></Link>
                                  </li>
                                  <li className="has-dropdown">
-                                    <Link href="/course-grid"><a>Tentang Kami</a></Link>
+                                    <Link href="#"><a>Tentang Kami</a></Link>
                                     <ul className="submenu">
                                        {/* <li><Link href="/about"><a>About</a></Link></li> */}
-                                       <li><Link href="/instructor"><a>Instruktur</a></Link></li>
-                                       <li><Link href="/instructor-details"><a>Profil Perusahaan</a></Link></li>
+                                       <li><Link href="#"><a>Instruktur</a></Link></li>
+                                       <li><Link href="#"><a>Profil Perusahaan</a></Link></li>
                                        {/* <li><Link href="/event-details"><a>Event Details</a></Link></li>
                                        <li><Link href="/cart"><a>My Cart</a></Link></li>
                                        <li><Link href="/wishlist"><a>My Wishlist</a></Link></li>
@@ -121,7 +121,7 @@ const Header = () => {
                                        <li><Link href="/error"><a>Error</a></Link></li> */}
                                     </ul>
                                  </li>
-                                 <li><Link href="/contact"><a>Kontak</a></Link></li>
+                                 <li><Link href="#"><a>Kontak</a></Link></li>
                               </ul>
                            </nav>
                         </div>
@@ -156,7 +156,7 @@ const Header = () => {
                            </span>
                         </div>
                         <div className="header__btn ml-20 d-none d-sm-block">
-                           <Link href="/contact"><a className="e-btn">Masuk</a></Link>
+                           <Link href="#"><a className="e-btn">Masuk</a></Link>
                         </div>
                         <div className="sidebar__menu d-xl-none">
                            <div className="sidebar-toggle-btn ml-30" id="sidebar-toggle" onClick={() => {
