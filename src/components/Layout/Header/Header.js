@@ -143,7 +143,7 @@ const Header = () => {
                               </span>
                            </div> */}
                         </div>
-                        <div className="header__cart header__cart--responsive">
+                        {/* <div className="header__cart header__cart--responsive">
                            <span className="cart-toggle-btn" onClick={() => {setShopOpen(!shopOpen)}}>
                                  <div className="header__cart-icon">
                                  <svg viewBox="0 0 24 24">
@@ -154,7 +154,7 @@ const Header = () => {
                                  </div>
                                  <span className="cart-item">2</span>
                            </span>
-                        </div>
+                        </div> */}
                         <div className="header__btn ml-20 d-none d-sm-block">
                            <Link href="#"><a className="e-btn">Masuk</a></Link>
                         </div>
@@ -176,8 +176,8 @@ const Header = () => {
          {/* <BurgerMenus menuOpen={menuOpen} setMenuOpen={setMenuOpen} /> */}
 			{/* <div onClick={() => setMenuOpen(false)} className={menuOpen ? "body-overlay show" : "body-overlay"}></div> */}
 
-         <ShopingCart shopOpen={shopOpen} setShopOpen={setShopOpen} />
-			<div onClick={() => setShopOpen(false)} className={shopOpen ? "body-overlay show" : "body-overlay"}></div>
+         {/* <ShopingCart shopOpen={shopOpen} setShopOpen={setShopOpen} />
+			<div onClick={() => setShopOpen(false)} className={shopOpen ? "body-overlay show" : "body-overlay"}></div> */}
 
       </header>
 		</React.Fragment>
